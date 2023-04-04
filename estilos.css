@@ -1,0 +1,123 @@
+.container{
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr;
+    column-gap: 10px;
+    flex-direction: grid;
+    justify-content: space-around;
+    height: 20vh;
+    font-size: 100px;
+    grid-auto-rows: minmax(80px, auto); 
+}
+main{
+    display: flex;
+    flex-direction: wrap;
+    flex-flow: wrap;
+    justify-content: space-between;
+    column-gap: 10px;
+   grid-template-columns: 1fr;
+}
+
+.caja{
+    display: flex;
+    flex-direction: column;
+}
+.caja1{
+    width: 100px;
+    height: 100px;
+}
+.caja2{ 
+    color: red;
+    font-size: 80px;
+    grid-column: 2/3;
+}
+.caja3{
+    width: 150px;
+    height: 50px;
+}
+   
+.card-title{
+    font-size: 20px;
+}
+
+.caja4{
+    border-color: blueviolet;
+    flex-direction: row-reverse;
+    display: flex;
+    justify-content: flex-start;
+    width: 150px;
+    height: 150px;
+    font-style: -4px;
+}
+    
+
+.caja5{
+    border-color: blueviolet;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+    width: 150px;
+    height: 150px;
+    font-style: -4px;
+
+}
+.caja6{
+    border-color: blueviolet;
+    display: flex;
+    flex-direction:row-reverse;
+    justify-content: flex-start;
+    width: 150px;
+    height: 150px;
+    font-style: -4px;
+
+}
+.caja7{
+    border-color: blueviolet;
+    display: flex;
+    flex-direction:row-reverse;
+    justify-content: flex-start;
+    width: 18rem;
+    height:200px;
+    font-style: -4px;
+}
+.caja8{
+    text-align: center;
+    font-size: 80px;
+
+}
+.caja9{
+text-align: center;
+font-size: 18px;
+}
+.caja10{
+    width: 250px;
+    height: 200px;
+}
+body{
+    display: flex;
+    flex-direction: wrap;
+    flex-flow: wrap;
+    justify-content: space-between;
+    column-gap: 20px;
+   grid-template-columns: 1fr;
+} 
+.caja11{
+    font-size: 50px;
+} 
+.caja12{
+    width: 60px;
+    height: 70px;
+}
+.caja13{
+    width: 60px;
+    height: 70px;
+}
+
+footer{
+    color: red;
+    display: flex;
+    flex-direction: wrap;
+    flex-flow: wrap;
+    justify-content: space-between;
+    column-gap: 10px;
+   grid-template-columns: 1fr 1fr 1fr;
+}
